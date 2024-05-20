@@ -3,17 +3,33 @@
     padding: 0;
 }
 body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
     background-color: rgb(208, 202, 202);
 }
-p{
+button{
+    border-radius: 5px;
+    box-shadow: 2px;
+    cursor: pointer;
+}
+button:active{
+    background-color: orange;
+}
+.secreen{
+    background-color: bisque;
     padding-top: 30px;
     text-align: center;
+    border-radius: 10px;
+    padding-bottom: 10px;
 }
 .container{
     background-color: dimgray;
     border: 5px solid black;
     width: 350px;
     height: 350px;  
+    border-radius: 20px;
 }
 .operator {
     padding-left: 20px;
@@ -30,5 +46,7 @@ p{
 .numbers button{
     width: 60px;
     height: 40px;
+    margin:10px 0 0 30px;
+
     
 }
